@@ -1,6 +1,6 @@
 {
   "name": "diff-calc-v441",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The second project of the Front-end JS Programmer profession at Hexlet - Difference Calculator.",
   "bin": {
     "gendiff": "dist/bin/gendiff.js"
