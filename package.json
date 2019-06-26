@@ -1,6 +1,6 @@
 {
   "name": "diff-calc-v441",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The second project of the Front-end JS Programmer profession at Hexlet - Difference Calculator.",
   "main": "dist/index.js",
   "bin": {

@@ -14,6 +14,6 @@ $npm install -g diff-calc-v441
 
 # how to use diff-calc-v441
 
-$gendiff -h
+$gendiff pathToConfigFile1 pathToConfigFile2
 
-<a href="https://asciinema.org/a/UoaSvm2JE3XSCqIBWC5j6OSZx" target="_blank"><img src="https://asciinema.org/a/UoaSvm2JE3XSCqIBWC5j6OSZx.svg" width="500" height="300" /></a>
+<a href="https://asciinema.org/a/q68jdYP505yFbaqcBU8luU2Sq" target="_blank"><img src="https://asciinema.org/a/q68jdYP505yFbaqcBU8luU2Sq.svg" width="500" height="300" /></a>
