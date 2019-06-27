@@ -2,7 +2,7 @@
 
 # What is diff-calc-v441?
 
-It's a program that compares two configuration files and shows a difference.
+It's a program that compares two configuration files and shows a difference. Supports .json, .yaml/.yml formats.
 
 
 # how to install diff-calc-v441
