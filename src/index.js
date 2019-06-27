@@ -1,9 +1,11 @@
 import fs from 'fs';
+import path from 'path';
 import _ from 'lodash';
+import parseConfigData from './parsers';
 
 const calcDiff = (filepath1, filepath2) => {
-  const configData1 = JSON.parse(fs.readFileSync(filepath1, 'utf-8'));
-  const configData2 = JSON.parse(fs.readFileSync(filepath2, 'utf-8'));
+  const configData1 = parseConfigData(fs.readFileSync(filepath1, 'utf-8'), path.extname(filepath1));
+  const configData2 = parseConfigData(fs.readFileSync(filepath2, 'utf-8'), path.extname(filepath2));
   const configKeys1 = Object.keys(configData1);
   const configKeys2 = Object.keys(configData2);
   const configKeys = _.union(configKeys1, configKeys2);
