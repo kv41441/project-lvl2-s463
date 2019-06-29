@@ -10,7 +10,6 @@ const calcDiff = (filepath1, filepath2) => {
   const configKeys2 = Object.keys(configData2);
   const configKeys = _.union(configKeys1, configKeys2);
   const configDataAfter = { ...configData1, ...configData2 };
-  // const configDataBefore = { ...configData2, ...configData1 };
 
   const result = configKeys.reduce((acc, key) => {
     if (_.has(configData1, key) && _.has(configData2, key)

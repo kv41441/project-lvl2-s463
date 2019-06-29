@@ -1,9 +1,11 @@
 import yaml from 'js-yaml';
+import ini from 'ini';
 
 const fileTypes = {
   '.json': JSON.parse,
   '.yaml': yaml.safeLoad,
   '.yml': yaml.safeLoad,
+  '.ini': ini.parse,
 };
 
 const parseConfigData = (data, fileType) => {

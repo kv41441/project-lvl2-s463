@@ -1,6 +1,6 @@
 {
   "name": "diff-calc-v441",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The second project of the Front-end JS Programmer profession at Hexlet - Difference Calculator.",
   "main": "dist/index.js",
   "bin": {
@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "commander": "^2.20.0",
+    "ini": "^1.3.5",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.11"
   }
